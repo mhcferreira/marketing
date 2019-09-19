@@ -1,0 +1,31 @@
+<ion-header >
+  <ion-toolbar color="dark">
+    <ion-title color = "primary">Cadastro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color = "primary">
+    <div class="ion-padding">
+
+      <ion-item>
+          <ion-label position="floating"> Nome: </ion-label>
+          <ion-input type="text" [(ngModel)]="contato.nome" placeholder="Insira o seu nome:"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating"> Email: </ion-label>
+          <ion-input type="text" [(ngModel)]="contato.email" placeholder ="Insira seu email:"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating"> Senha: </ion-label>
+          <ion-input type="password" [(ngModel)]="contato.senha" placeholder ="Insira sua senha:"></ion-input>
+        </ion-item>
+
+        <ion-button (click)="salvar()" expand="full" shape="around" color = "dark"> Salvar </ion-button>
+        <ion-button href="home" expand="full" shape="around" color = "dark"> Voltar </ion-button>
+        <ion-button href="listar" expand="full" shape="around" color ="dark"> Lista </ion-button>
+        <ion-button href="pesquisa" expand="full" shape="around" color = "dark"> Próximo </ion-button>
+
+   </div>
+</ion-content>

@@ -1,14 +1,24 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
+  <ion-toolbar color="Dark">
+    <ion-title color="primary">
+      Pesquisa de preço digital
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="primary">
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <ion-img src="http://www.wtcclub.com.br/wp-content/uploads/2019/02/transforma%C3%A7%C3%A3o-digital-Senac.jpg"></ion-img>=
+
+
+    <ion-input [(ngModel)]="login.email" color="dark" expand="full" shape="around">Email:</ion-input>
+    <ion-input [(ngModel)]="login.senha" type="password" color="dark" expand="full" shape="around">Senha:</ion-input>
+
+    <ion-button color="dark" expand="full" shape="around" (click)="logar()" expand="full" shape="around">
+      <ion-text >Entrar</ion-text>
+    </ion-button>
+    <ion-button href="cadastro" color="dark" expand ="full" shape="around"> Cadastre-se:</ion-button>
+    <ion-button (click)="redefinir()" expand="block" color="dark"> Esqueceu sua senha? </ion-button>
+
   </div>
 </ion-content>

@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>listar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let contato of listaContatos | async">
+      <ion-label>{{ contato.nome }}</ion-label>
+      <ion-label>{{ contato.email }}</ion-label>
+      <ion-label>{{ contato.senha }}</ion-label>
+      <ion-button (click) = "excluir(contato.key)"><ion-icon name="trash"></ion-icon></ion-button>
+
+    </ion-item>
+  </ion-list>
+    <ion-button href="cadastro"> Voltar </ion-button>
+</ion-content>

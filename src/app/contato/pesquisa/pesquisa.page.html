@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-title>Faça sua pesquisa</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<p><ion-badge color = "primary">Selecione uma opção</ion-badge></p>
+  <ion-select [(ngModel)]="endereco" multiple="false" okText="Selecionar">
+      <ion-select-option value="televisão">Televisão</ion-select-option>
+      <ion-select-option value="Celular">Celular</ion-select-option>
+      <ion-select-option value="Notebook">Notebook</ion-select-option>
+      <ion-select-option value="Radio">Radio</ion-select-option>
+      <ion-select-option value="Pendrive">Pendrive</ion-select-option>
+    </ion-select>
+  <ion-button expand="full" shape="around" href="home">Voltar</ion-button>
+  <ion-img src= "https://image.freepik.com/vetores-gratis/telas-e-dispositivos-eletronicos-isometricos_23-2147647441.jpg"></ion-img>
+
+</ion-content>
