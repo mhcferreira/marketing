@@ -1,15 +1,13 @@
 <ion-header>
   <ion-toolbar >
     <ion-title>Faça sua pesquisa</ion-title>
-    <ion-icon name="contact"color = "dark"></ion-icon>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
 <p><ion-badge color = "primary">Selecione uma opção</ion-badge></p>
   <ion-select [(ngModel)]="endereco" multiple="false" okText="Selecionar">
-      <ion-select-option value="televisão">Televisão</ion-select-option>
-      <ion-select-option value="Celular">Celular</ion-select-option>
+      <ion-select-option value="televisão" >Televisão</ion-select-option>
+      <ion-select-option value="Celular" >Celular</ion-select-option>
       <ion-select-option value="Notebook">Notebook</ion-select-option>
       <ion-select-option value="Radio">Radio</ion-select-option>
       <ion-select-option value="Pendrive">Pendrive</ion-select-option>

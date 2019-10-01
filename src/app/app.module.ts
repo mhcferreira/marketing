@@ -19,7 +19,7 @@ import { RadioPage } from './contato/eletronicos/radio/radio.page';
 import { PendrivePage } from './contato/eletronicos/pendrive/pendrive.page';
 @NgModule({
   declarations: [AppComponent, CadastroPage, ListarPage, PesquisaPage, TelevisaoPage, CelularPage, NotebookPage,
-  RadioPage, PendrivePage],
+  RadioPage, PendrivePage, ],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule,
     AngularFireModule.initializeApp({

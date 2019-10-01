@@ -3,6 +3,7 @@ import { AngularFireDatabase } from '@angular/fire/database';
 import { Observable } from 'rxjs';
 import { Contato } from '../entidade/contato';
 import { map } from 'rxjs/operators';
+
 @Component({
   selector: 'app-listar',
   templateUrl: './listar.page.html',
