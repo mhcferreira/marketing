@@ -17,9 +17,10 @@ import { CelularPage } from './contato/eletronicos/celular/celular.page';
 import { NotebookPage } from './contato/eletronicos/notebook/notebook.page';
 import { RadioPage } from './contato/eletronicos/radio/radio.page';
 import { PendrivePage } from './contato/eletronicos/pendrive/pendrive.page';
+import { OutroseletronicosPage } from './contato/eletronicos/outroseletronicos/outroseletronicos.page';
 @NgModule({
   declarations: [AppComponent, CadastroPage, ListarPage, PesquisaPage, TelevisaoPage, CelularPage, NotebookPage,
-  RadioPage, PendrivePage, ],
+  RadioPage, PendrivePage, OutroseletronicosPage ],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule,
     AngularFireModule.initializeApp({

@@ -9,7 +9,7 @@ import { CelularPage } from './contato/eletronicos/celular/celular.page';
 import { NotebookPage } from './contato/eletronicos/notebook/notebook.page';
 import { RadioPage } from './contato/eletronicos/radio/radio.page';
 import { PendrivePage } from './contato/eletronicos/pendrive/pendrive.page';
-
+import { OutroseletronicosPage } from './contato/eletronicos/outroseletronicos/outroseletronicos.page';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -23,6 +23,7 @@ const routes: Routes = [
   { path: 'notebook', component: NotebookPage},
   { path: 'radio', component: RadioPage},
   { path: 'pendrive', component: PendrivePage},
+  { path: 'outroseletronicos', component: OutroseletronicosPage },
 ];
 
 
