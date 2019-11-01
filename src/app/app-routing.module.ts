@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'cadastro', component: CadastroPage },
   { path: 'listar', component: ListarPage },
   { path: 'pesquisa', component: PesquisaPage },
-  { path: 'eletronicos', loadChildren: './contato/eletronicos/eletronicos.module#HomePageModule' },
+  { path: 'eletronicos', loadChildren: '../contato/eletronicos/eletronicos.module#HomePageModule' },
   { path: 'televisao', component: TelevisaoPage},
   { path: 'celular', component: CelularPage},
   { path: 'notebook', component: NotebookPage},
